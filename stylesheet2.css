@@ -1,0 +1,298 @@
+@font-face {
+    font-family: "Edo";
+    src: url("http://ff.static.1001fonts.net/e/d/edo-sz.regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Logisoso";
+    src: url("http://www.fontsaddict.com/download/logisoso.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url("http://ff.static.1001fonts.net/r/o/roboto-condensed.regular.ttf") format("truetype");
+}
+
+.toolbar div{
+  display: inline-block;
+}
+
+.LaurenBecker{
+  padding-right: 150px;
+  margin-left: 10px;
+  float: left;
+  font-size: 20px;
+  margin-top: 15px;
+  font-family: "Edo", sans-serif;
+}
+
+.log{
+    font-family: "Logisoso", sans-serif;
+    font-size: 20px;
+}
+
+.dropdown a{
+    font-family: "Logisoso", sans-serif;
+    font-size: 20px;
+}
+
+.email{
+  float: right;
+  margin-right: 5px;
+  margin-top: 20px;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+ul li{
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  font-size: 20px;
+}
+ul li a{
+  display: block;
+  padding: 0px 5px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul li a:hover{
+  color: #DCDCDC;
+}
+ul li ul.dropdown{
+  min-width: 125px; /* Set width of the dropdown */
+  background: #f2f2f2;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  font-weight: normal;
+  line-height: 30px;
+  
+}
+ul li:hover ul.dropdown{
+  display: block;	/* Display the dropdown */
+}
+ul li ul.dropdown li{
+  display: block;
+}
+
+
+
+
+
+.jumbotron {
+  background-image: url("images/galaxy1.jpg");
+/*background-image: url('http://scienceblogs.com/startswithabang/files/2013/04/night-sky-stars.jpeg');*/
+  height: 395px;
+  margin-top: 0px;
+  position:center;
+}
+
+.jumbotron:hover{
+    background-image: url(images/galaxy.gif);
+    height: 395px;
+}
+
+.jumbotron .container{
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  position: center;
+}
+
+.LaurenJumbo{
+  font-size: 65px;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: -20px;
+  font-family: "Roboto Condensed", Helvetica;
+}
+
+
+.box{
+  border: solid white 1px;
+  height: 40px;
+  width: 400px;
+  text-align: center;
+  font-size: 30px;
+  position: center;
+  margin-left: 430px;
+  padding-top: 0px;
+  margin-top: -50px;
+  font-family: "Roboto Condensed", sans-serif;
+  
+}
+
+.filmmaker{
+    height: 150px;
+    background-image: url("images/filmmaker1.jpg");
+    text-align: center;
+    
+}
+.filmmaker:hover{
+    height: 150px;
+    background-image: url("images/filmmaker.gif");
+}
+
+.filmmaker div{
+    height: 150px;
+    width: 301px;
+}
+
+.filmmaker a{
+     text-decoration: none;
+}
+
+.filmmaker div p{
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    position: center;
+    margin-top: 55px;
+    text-shadow: 1px 1px #000000;
+}
+
+.graphicDesigner{
+    height: 150px;
+    background-image: url("images/graphicDesigner1.jpg");
+    text-align: center;
+}
+
+
+.graphicDesigner:hover{
+    height: 150px;
+    background-image: url("images/graphicDesigner.gif");
+}
+
+.graphicDesigner div{
+    height: 150px;
+    width: 301px;
+}
+
+.graphicDesigner a{
+     text-decoration: none;
+}
+
+.graphicDesigner div p{
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    position: center;
+    margin-top: 25px;
+    text-shadow: 1px 1px #000000;
+}
+
+
+.appCreator{
+    height: 150px;
+    background-image: url("images/hybrid-apps.gif");
+    text-align: center;
+}
+
+.appCreator:hover{
+  height: 150px;
+  background-image: url("images/comingSoon.jpg");
+}
+
+.appCreator div{
+    height: 150px;
+    width: 301px;
+}
+
+.appCreator a{
+     text-decoration: none;
+}
+.appCreator div p{
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    position: center;
+    margin-top: 55px;
+    text-shadow: 1px 1px #000000;
+}
+
+.appCreator{
+    height: 150px;
+    background-image: url("images/appCreator1.jpg");
+    text-align: center;
+}
+
+
+.teacher{
+    height: 150px;
+    background-image: url("images/leader1.jpg");
+    text-align: center;
+}
+.teacher:hover{
+    height: 150px;
+    background-image: url("images/leader.gif");
+}
+
+.teacher div{
+    height: 150px;
+    width: 301px;
+}
+
+.teacher a{
+     text-decoration: none;
+}
+.teacher div p{
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    position: center;
+    margin-top: 55px;
+    text-shadow: 1px 1px #000000;
+}
+
+
+
+/* Grid System */
+
+.column {
+  float: left;
+  margin-left: 5%;
+  padding: 0%;
+}
+.column:first-child {
+  margin-left: 0;
+}
+.column.full {
+  width: 100%;
+}
+.column.three-fourths {
+  width: 73.75%;
+}
+.column.two-thirds {
+  width: 65%;
+}
+.column.half {
+  width: 47.5%;
+}
+.column.one-third {
+  width: 30%;
+}
+.column.one-fourth {
+  width: 301.5px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.nopadding {
+  padding: 0;
+}
+
